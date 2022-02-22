@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+xmlns:sec="https//www.thymeleaf.org/thymeleaf-extras-springsecurity5"
+layout:decorator="template1.html"
+>
+<head>
+<meta charset="UTF-8">
+<title>ERROR</title>
+</head>
+<body>
+<div layout:fragment="PageContent">
+<div class="container mt-5 d-flex justify-content-center ">
+<div class="col-md-9 " >
+<div class="card mt-auto">
+<div class="card-header"><strong>ERROR</strong></div> 
+<div class="card-body">
+<h3 class="text-danger"> Désolé, vous n’êtes pas autorisé à accéder à cette page </h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
